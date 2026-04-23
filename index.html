@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wynnie Gross · GIS Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<nav>
+  <a href="#hero" class="nav-logo">Wynnie Gross</a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#work">Work</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<div id="hero">
+  <div class="hero-text">
+    <p class="hero-eyebrow">Solution Engineer · Esri</p>
+    <h1>Geospatial science,<br><em>in service of</em><br>people.</h1>
+    <p class="hero-desc">I build GIS solutions for federal health and science agencies, grounding technical analysis in spatial statistics, remote sensing, and a commitment to environmental justice.</p>
+    <div class="hero-ctas">
+      <a href="#work" class="btn-primary">View my work</a>
+      <a href="#contact" class="btn-ghost">Get in touch</a>
+    </div>
+  </div>
+
+  <div class="hero-visual">
+    <div class="hero-map-frame">
+      <svg viewBox="0 0 320 240" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+            <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#c8c4bc" stroke-width="0.4"/>
+          </pattern>
+        </defs>
+        <rect width="320" height="240" fill="url(#grid)"/>
+        <circle cx="160" cy="120" r="55" fill="none" stroke="#2d5a3d" stroke-width="0.8" stroke-dasharray="4 3" opacity="0.5"/>
+        <circle cx="160" cy="120" r="30" fill="none" stroke="#2d5a3d" stroke-width="0.5" opacity="0.35"/>
+        <path d="M 80 90 Q 120 70 160 80 Q 200 90 240 75" fill="none" stroke="#2d5a3d" stroke-width="1.2" opacity="0.6"/>
+        <path d="M 70 130 Q 110 115 160 120 Q 210 125 250 110" fill="none" stroke="#2d5a3d" stroke-width="0.8" opacity="0.4"/>
+        <path d="M 90 165 Q 130 155 165 158 Q 200 162 230 150" fill="none" stroke="#2d5a3d" stroke-width="0.6" opacity="0.3"/>
+        <circle cx="160" cy="120" r="4" fill="#2d5a3d"/>
+        <circle cx="160" cy="120" r="8" fill="#2d5a3d" opacity="0.15"/>
+        <circle cx="110" cy="90" r="2.5" fill="#4a8c62" opacity="0.7"/>
+        <circle cx="205" cy="105" r="2" fill="#4a8c62" opacity="0.6"/>
+        <circle cx="180" cy="150" r="2" fill="#4a8c62" opacity="0.5"/>
+        <rect x="10" y="198" width="80" height="32" rx="2" fill="white" fill-opacity="0.8" stroke="#c8c4bc" stroke-width="0.5"/>
+        <rect x="18" y="206" width="6" height="6" fill="#2d5a3d" opacity="0.7"/>
+        <rect x="18" y="216" width="6" height="6" fill="#4a8c62" opacity="0.5"/>
+        <text x="28" y="213" font-size="7" fill="#555550" font-family="sans-serif">Primary</text>
+        <text x="28" y="223" font-size="7" fill="#555550" font-family="sans-serif">Secondary</text>
+      </svg>
+    </div>
+    <div class="hero-stats">
+      <div class="stat">
+        <span class="stat-num">8+</span>
+        <span class="stat-label">Projects completed</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">4+</span>
+        <span class="stat-label">Organizations partnered</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section id="about">
+  <div class="section-header">
+    <span class="section-num">01</span>
+    <h2>About me</h2>
+  </div>
+  <div class="about-grid">
+    <div class="about-text">
+      <p>I'm a Geographic Information Science (GIS) professional working at the intersection of geospatial tech, science, and public policy. As a Solution Engineer at Esri, I help federal health and science agencies apply GIS in advancing their environmental monitoring, scientific research, and public health missions.</p>
+      <p>My work centers on spatial statistics, geospatial analytics, and cartography, informed by a strong foundation in imagery and remote sensing. I'm driven by the power of spatial analysis to shape smarter, more equitable public policy, especially in environmental justice and urban planning.</p>
+      <p>Whether it's modeling urban heat vulnerability with NASA Earth observations, mapping mine expansion for human rights research, or building dashboards for conservation strategy, I bring the same rigor and intention to every dataset.</p>
+    </div>
+    <div class="about-aside">
+      <div>
+        <p class="tag-group-label">Domains</p>
+        <div class="tags">
+          <span class="tag">Geographic Information Science</span>
+          <span class="tag">Spatial Statistics</span>
+          <span class="tag">Remote Sensing</span>
+          <span class="tag">Spatial Machine Learning &amp; AI</span>
+        </div>
+      </div>
+      <div>
+        <p class="tag-group-label">Tools</p>
+        <div class="tags">
+          <span class="tag">ArcGIS Pro</span>
+          <span class="tag">ArcGIS Enterprise</span>
+          <span class="tag">ArcGIS Online</span>
+          <span class="tag">QGIS</span>
+          <span class="tag">Google Earth Engine</span>
+          <span class="tag">Python</span>
+          <span class="tag">R</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">HTML/CSS</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div id="work">
+  <div class="work-inner">
+    <div class="section-header">
+      <span class="section-num">02</span>
+      <h2>Work</h2>
+    </div>
+
+    <div class="work-filter">
+      <button class="filter-btn active" onclick="filterWork('all', this)">All</button>
+      <button class="filter-btn" onclick="filterWork('gis', this)">GIS</button>
+      <button class="filter-btn" onclick="filterWork('writing', this)">Writing</button>
+    </div>
+
+    <div class="work-grid" id="work-grid">
+      <div class="work-card" data-type="gis">
+        <div class="work-thumb">
+          <span class="work-type-badge badge-gis">GIS</span>
+          <svg width="70%" viewBox="0 0 200 140" opacity="0.6">
+            <rect width="200" height="140" fill="#e8ede9"/>
+            <rect x="20" y="20" width="160" height="100" rx="2" fill="none" stroke="#2d5a3d" stroke-width="0.5" opacity="0.5"/>
+            <rect x="20" y="20" width="40" height="25" fill="#c0392b" opacity="0.2"/>
+            <rect x="60" y="20" width="55" height="25" fill="#c0392b" opacity="0.4"/>
+            <rect x="115" y="20" width="65" height="25" fill="#c0392b" opacity="0.6"/>
+            <rect x="20" y="45" width="80" height="30" fill="#e74c3c" opacity="0.15"/>
+            <rect x="100" y="45" width="80" height="30" fill="#e74c3c" opacity="0.35"/>
+            <rect x="20" y="75" width="50" height="45" fill="#2d5a3d" opacity="0.25"/>
+            <rect x="70" y="75" width="110" height="45" fill="#2d5a3d" opacity="0.15"/>
+            <circle cx="100" cy="55" r="3" fill="#2d5a3d" opacity="0.7"/>
+          </svg>
+        </div>
+        <div class="work-body">
+          <p class="work-title">Urban Heat &amp; Vulnerability in Portland, Oregon</p>
+          <p class="work-desc">Mapped Land Surface Temperature and social vulnerability using Landsat TIRS imagery to support community de-paving initiatives with Depave.</p>
+          <a href="https://drive.google.com/file/d/1QVboD_ZYjgqhLmcfDVeQVfJz6eX08HHW/view" class="work-link" target="_blank" rel="noopener noreferrer">View project &rarr;</a>
+        </div>
+      </div>
+
+      <div class="work-card" data-type="gis">
+        <div class="work-thumb">
+          <span class="work-type-badge badge-gis">GIS</span>
+          <svg width="70%" viewBox="0 0 200 140" opacity="0.6">
+            <rect width="200" height="140" fill="#e8ede9"/>
+            <path d="M 20 70 Q 60 50 100 55 Q 140 60 180 45" stroke="#2d5a3d" stroke-width="1.5" fill="none"/>
+            <path d="M 30 90 Q 70 80 100 85 Q 130 90 170 78" stroke="#4a8c62" stroke-width="1" fill="none" opacity="0.7"/>
+            <path d="M 40 110 Q 80 100 115 105 Q 150 110 180 100" stroke="#4a8c62" stroke-width="0.7" fill="none" opacity="0.5"/>
+            <circle cx="100" cy="55" r="5" fill="#2d5a3d" opacity="0.8"/>
+            <circle cx="60" cy="75" r="3" fill="#4a8c62" opacity="0.6"/>
+            <circle cx="145" cy="65" r="3.5" fill="#4a8c62" opacity="0.6"/>
+          </svg>
+        </div>
+        <div class="work-body">
+          <p class="work-title">Urban Flood Vulnerability in Kansas City</p>
+          <p class="work-desc">Modeled pluvial flooding risk using GPM satellite data and InVEST to identify vulnerable neighborhoods in Wyandotte County.</p>
+          <a href="https://drive.google.com/file/d/1r0oWfbrNslirLOjGBvw9do3g9a6X8inK/view" class="work-link" target="_blank" rel="noopener noreferrer">View project &rarr;</a>
+        </div>
+      </div>
+
+      <div class="work-card" data-type="writing">
+        <div class="work-thumb">
+          <span class="work-type-badge badge-writing">Writing</span>
+          <svg width="70%" viewBox="0 0 200 140" opacity="0.6">
+            <rect width="200" height="140" fill="#eceef7"/>
+            <rect x="30" y="30" width="140" height="8" rx="1" fill="#3a4a8c" opacity="0.4"/>
+            <rect x="30" y="46" width="120" height="5" rx="1" fill="#3a4a8c" opacity="0.2"/>
+            <rect x="30" y="57" width="135" height="5" rx="1" fill="#3a4a8c" opacity="0.2"/>
+            <rect x="30" y="68" width="110" height="5" rx="1" fill="#3a4a8c" opacity="0.2"/>
+            <rect x="30" y="84" width="140" height="5" rx="1" fill="#3a4a8c" opacity="0.2"/>
+            <rect x="30" y="95" width="100" height="5" rx="1" fill="#3a4a8c" opacity="0.2"/>
+            <rect x="30" y="106" width="125" height="5" rx="1" fill="#3a4a8c" opacity="0.2"/>
+          </svg>
+        </div>
+        <div class="work-body">
+          <p class="work-title">Youth Perceptions of Urban Change</p>
+          <p class="work-desc">Case study comparison of youth perspectives on gentrification and urban identity in Worcester, MA and Rabat, Morocco.</p>
+          <a href="https://drive.google.com/file/d/1drTW14VstUfae4EukVOvgMl0278ICOE_/view" class="work-link" target="_blank" rel="noopener noreferrer">View project &rarr;</a>
+        </div>
+      </div>
+
+      <div class="work-card" data-type="gis">
+        <div class="work-thumb">
+          <span class="work-type-badge badge-gis">GIS</span>
+          <svg width="70%" viewBox="0 0 200 140" opacity="0.6">
+            <rect width="200" height="140" fill="#e8ede9"/>
+            <circle cx="100" cy="70" r="50" fill="none" stroke="#2d5a3d" stroke-width="0.8" stroke-dasharray="4 3" opacity="0.5"/>
+            <circle cx="100" cy="70" r="30" fill="none" stroke="#2d5a3d" stroke-width="0.5" opacity="0.35"/>
+            <circle cx="100" cy="70" r="4" fill="#2d5a3d"/>
+            <circle cx="100" cy="70" r="9" fill="#2d5a3d" opacity="0.15"/>
+            <circle cx="130" cy="50" r="3" fill="#4a8c62" opacity="0.7"/>
+            <circle cx="75" cy="90" r="2.5" fill="#4a8c62" opacity="0.6"/>
+            <circle cx="120" cy="95" r="2" fill="#4a8c62" opacity="0.5"/>
+          </svg>
+        </div>
+        <div class="work-body">
+          <p class="work-title">Mapping the Balama Graphite Mine Expansion</p>
+          <p class="work-desc">Used Planet hyperspectral imagery and object-based classification to map mine expansion and air quality impacts in Cabo Delgado, Mozambique.</p>
+          <a href="https://drive.google.com/file/d/1H9XN7JOmsv2LEW5_NV9bNwvA65nxCeMA/view" class="work-link" target="_blank" rel="noopener noreferrer">View project &rarr;</a>
+        </div>
+      </div>
+
+      <div class="work-card" data-type="gis">
+        <div class="work-thumb">
+          <span class="work-type-badge badge-gis">GIS</span>
+          <svg width="70%" viewBox="0 0 200 140" opacity="0.6">
+            <rect width="200" height="140" fill="#e8ede9"/>
+            <rect x="20" y="20" width="160" height="100" rx="2" fill="none" stroke="#2d5a3d" stroke-width="0.5" opacity="0.5"/>
+            <rect x="20" y="20" width="40" height="25" fill="#2d5a3d" opacity="0.15"/>
+            <rect x="60" y="20" width="55" height="25" fill="#2d5a3d" opacity="0.3"/>
+            <rect x="115" y="20" width="65" height="25" fill="#2d5a3d" opacity="0.5"/>
+            <rect x="20" y="45" width="80" height="30" fill="#4a8c62" opacity="0.2"/>
+            <rect x="100" y="45" width="80" height="30" fill="#4a8c62" opacity="0.4"/>
+            <rect x="20" y="75" width="50" height="45" fill="#2d5a3d" opacity="0.3"/>
+            <rect x="70" y="75" width="110" height="45" fill="#2d5a3d" opacity="0.1"/>
+          </svg>
+        </div>
+        <div class="work-body">
+          <p class="work-title">Urban Heat Mitigation in Córdoba, Argentina</p>
+          <p class="work-desc">Modeled urban cooling ecosystem services using InVEST to identify heat-vulnerable areas and their correlation with social vulnerability.</p>
+          <a href="https://drive.google.com/file/d/1UrQf-PL3nCU3GhKLxaQMd9Ail689lp4G/view" class="work-link" target="_blank" rel="noopener noreferrer">View project &rarr;</a>
+        </div>
+      </div>
+
+      <div class="work-card" data-type="gis">
+        <div class="work-thumb">
+          <span class="work-type-badge badge-gis">GIS</span>
+          <svg width="70%" viewBox="0 0 200 140" opacity="0.6">
+            <rect width="200" height="140" fill="#e8ede9"/>
+            <path d="M 20 70 Q 60 50 100 55 Q 140 60 180 45" stroke="#2d5a3d" stroke-width="1.5" fill="none"/>
+            <path d="M 30 90 Q 70 80 100 85 Q 130 90 170 78" stroke="#4a8c62" stroke-width="1" fill="none" opacity="0.7"/>
+            <circle cx="80" cy="60" r="6" fill="#2d5a3d" opacity="0.5"/>
+            <circle cx="130" cy="55" r="4" fill="#4a8c62" opacity="0.4"/>
+            <circle cx="60" cy="85" r="5" fill="#2d5a3d" opacity="0.3"/>
+            <circle cx="150" cy="80" r="7" fill="#4a8c62" opacity="0.2"/>
+          </svg>
+        </div>
+        <div class="work-body">
+          <p class="work-title">Green Space Access in Chicago, Illinois</p>
+          <p class="work-desc">Used Network Analyst to examine spatial inequities in green space access by race and income, revealing legacies of historical disinvestment.</p>
+          <a href="https://drive.google.com/file/d/1OeuofBquHqdj4rGjOqNUHzxHMpSciWs-/view" class="work-link" target="_blank" rel="noopener noreferrer">View project &rarr;</a>
+        </div>
+      </div>
+
+      <div class="work-card" data-type="gis">
+        <div class="work-thumb">
+          <span class="work-type-badge badge-gis">GIS</span>
+          <svg width="70%" viewBox="0 0 200 140" opacity="0.6">
+            <rect width="200" height="140" fill="#e8ede9"/>
+            <path d="M 20 90 Q 60 40 100 70 Q 140 100 180 50" stroke="#2d5a3d" stroke-width="1.5" fill="none"/>
+            <path d="M 20 100 Q 60 55 100 80 Q 140 108 180 62" stroke="#4a8c62" stroke-width="0.8" fill="none" opacity="0.6"/>
+            <rect x="40" y="95" width="20" height="20" fill="#2d5a3d" opacity="0.3"/>
+            <rect x="90" y="78" width="20" height="20" fill="#4a8c62" opacity="0.3"/>
+            <rect x="145" y="60" width="20" height="20" fill="#2d5a3d" opacity="0.2"/>
+          </svg>
+        </div>
+        <div class="work-body">
+          <p class="work-title">Land Cover Change in Bahia, Brazil</p>
+          <p class="work-desc">Simulated alternating soybean crop presence and absence using TerrSet's Land Change Modeler to explore non-linear land cover dynamics.</p>
+          <a href="https://drive.google.com/file/d/168B6JWOti2y6DUx4irMklePSSThcmT6H/view" class="work-link" target="_blank" rel="noopener noreferrer">View project &rarr;</a>
+        </div>
+      </div>
+
+      <div class="work-card" data-type="gis">
+        <div class="work-thumb">
+          <span class="work-type-badge badge-gis">GIS</span>
+          <svg width="70%" viewBox="0 0 200 140" opacity="0.6">
+            <rect width="200" height="140" fill="#e8ede9"/>
+            <rect x="15" y="40" width="170" height="75" rx="3" fill="white" opacity="0.7" stroke="#2d5a3d" stroke-width="0.5"/>
+            <rect x="25" y="55" width="40" height="45" rx="1" fill="#2d5a3d" opacity="0.2"/>
+            <rect x="75" y="50" width="100" height="8" rx="1" fill="#2d5a3d" opacity="0.25"/>
+            <rect x="75" y="64" width="80" height="5" rx="1" fill="#2d5a3d" opacity="0.15"/>
+            <rect x="75" y="74" width="90" height="5" rx="1" fill="#2d5a3d" opacity="0.15"/>
+            <rect x="75" y="92" width="50" height="12" rx="2" fill="#4a8c62" opacity="0.35"/>
+          </svg>
+        </div>
+        <div class="work-body">
+          <p class="work-title">WCS Conservation Management Units</p>
+          <p class="work-desc">Built an ArcGIS Dashboard with Wildlife Conservation Society analysts to visualize conservation effectiveness across Central and South America.</p>
+          <a href="https://experience.arcgis.com/experience/90a5febf1bf048889a1d35a7aec0a30f/page/Management-Units" class="work-link" target="_blank" rel="noopener noreferrer">View project &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section id="skills">
+  <div class="section-header">
+    <span class="section-num">03</span>
+    <h2>Skills</h2>
+  </div>
+  <div class="skills-cols">
+    <div>
+      <p class="skills-col-title">GIS</p>
+      <div class="skill-item">Spatial Analysis <div class="skill-dot full"></div></div>
+      <div class="skill-item">Predictive Analytics <div class="skill-dot full"></div></div>
+      <div class="skill-item">Raster Analysis <div class="skill-dot full"></div></div>
+      <div class="skill-item">Cartography <div class="skill-dot full"></div></div>
+      <div class="skill-item">Machine Learning <div class="skill-dot mid"></div></div>
+    </div>
+    <div>
+      <p class="skills-col-title">Programming</p>
+      <div class="skill-item">Python <div class="skill-dot full"></div></div>
+      <div class="skill-item">R <div class="skill-dot full"></div></div>
+      <div class="skill-item">JavaScript <div class="skill-dot mid"></div></div>
+      <div class="skill-item">HTML / CSS <div class="skill-dot mid"></div></div>
+      <div class="skill-item">Arcade <div class="skill-dot full"></div></div>
+      <div class="skill-item">SQL <div class="skill-dot mid"></div></div>
+      <div class="skill-item">OpenCypher <div class="skill-dot mid"></div></div>
+    </div>
+    <div>
+      <p class="skills-col-title">Other</p>
+      <div class="skill-item">AWS / Azure <div class="skill-dot mid"></div></div>
+      <div class="skill-item">Cloud Computing <div class="skill-dot mid"></div></div>
+      <div class="skill-item">Animation <div class="skill-dot mid"></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="section-header">
+    <span class="section-num">04</span>
+    <h2>Contact</h2>
+  </div>
+  <div class="contact-inner">
+    <div>
+      <p class="contact-blurb">Let's use spatial science to make an impact.</p>
+      <p class="contact-note">Whether it's a GIS collaboration, research project, or geospatial solution — I'd love to hear from you.</p>
+      <div class="contact-links">
+        <a href="mailto:wynniegross@gmail.com" class="contact-link">
+          <div class="contact-link-icon">@</div>
+          wynniegross@gmail.com
+        </a>
+        <a href="https://www.linkedin.com/in/hadwynnegross/" class="contact-link">
+          <div class="contact-link-icon">in</div>
+          LinkedIn
+        </a>
+        <a href="https://github.com/wynnie-gross" class="contact-link">
+          <div class="contact-link-icon">&lt;/&gt;</div>
+          GitHub
+        </a>
+      </div>
+    </div>
+    <div class="contact-form">
+      <div class="form-field">
+        <label class="form-label">Name</label>
+        <input type="text" class="form-input" placeholder="Your name">
+      </div>
+      <div class="form-field">
+        <label class="form-label">Email</label>
+        <input type="email" class="form-input" placeholder="your@email.com">
+      </div>
+      <div class="form-field">
+        <label class="form-label">Message</label>
+        <textarea class="form-input" placeholder="What's on your mind?"></textarea>
+      </div>
+      <button class="btn-primary" style="align-self: flex-start;">Send message</button>
+    </div>
+  </div>
+</section>
+
+<footer>
+  &copy; 2026 · Wynnie Gross
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
